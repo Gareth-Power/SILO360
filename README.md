@@ -1,4 +1,4 @@
-# UDP Streamer 360°
+# SILO360 - Multicast UDP 360 Streamer
 
 An Android app that receives a live UDP video stream and displays it as an interactive 360° view — swipe the screen to look around the scene.
 
