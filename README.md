@@ -65,3 +65,12 @@ Copy the `.apk` file to your device via USB, Google Drive, email, etc.
 ffmpeg -re -i input.mp4 \
   -vcodec libx264 -preset ultrafast -tune zerolatency \
   -f mpegts udp://<device-ip>:1234
+```
+
+---
+
+## License
+
+This project is licensed under the GNU Affero General Public License v3.0.
+
+See the [LICENSE](LICENSE) file for the full license text.
