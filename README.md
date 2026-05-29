@@ -6,6 +6,8 @@
 
 An Android app that receives a live UDP video stream and displays it as an interactive 360° view — swipe the screen to look around the scene.
 
+PLEASE NOTE THIS SOFTWARE IS STILL IN DEVELOPMENT AND ALL FEATURES ARE NOT YET COMPLETE OR FUNCTIONAL. FULL RELEASE WILL OCCUR AFTER JOURNAL PUBLICATION THIS YEAR.
+
 ---
 
 ## What It Does
@@ -26,8 +28,6 @@ An Android app that receives a live UDP video stream and displays it as an inter
 2. Search for **"Install unknown apps"** (or *Special app access*)
 3. Select the app you will use to open the APK (e.g. **Files** or **Chrome**)
 4. Toggle **"Allow from this source"** on
-
-> ⚠️ You can turn this back off after installing.
 
 ### Step 2 — Transfer the APK
 
@@ -57,17 +57,6 @@ Copy the `.apk` file to your device via USB, Google Drive, email, etc.
 
 ---
 
-## Sending a Stream (Quick Reference)
-
-### FFmpeg
-
-```bash
-ffmpeg -re -i input.mp4 \
-  -vcodec libx264 -preset ultrafast -tune zerolatency \
-  -f mpegts udp://<device-ip>:1234
-```
-
----
 
 ## License
 
